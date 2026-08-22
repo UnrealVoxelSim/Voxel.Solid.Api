@@ -1,5 +1,8 @@
 #pragma once
 
+#include "UnrealVoxelSim/Voxel/Solid/Api/ICommandProcessor.h"
+#include "UnrealVoxelSim/Voxel/Solid/Api/ICommandSink.h"
+
 #include "UnrealVoxelSim/Voxel/Solid/Api/Cell.h"
 #include "UnrealVoxelSim/Voxel/Solid/Api/Changed.h"
 #include "UnrealVoxelSim/Voxel/Solid/Api/EditError.h"
