@@ -29,4 +29,4 @@ namespace UnrealVoxelSim::Voxel::Solid::Api
 	private:
 		std::variant<FillCommand, EraseCommand> m_Value;
 	};
-} // namespace UnrealVoxelSim::Voxel::Solid::Api
+}

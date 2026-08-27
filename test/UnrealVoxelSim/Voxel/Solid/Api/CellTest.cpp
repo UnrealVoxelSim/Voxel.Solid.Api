@@ -26,5 +26,5 @@ TEST(CellTest, StandardMaterialsHaveStableDistinctIdentifiers)
     EXPECT_EQ(StandardMaterials::Stone.Value(), 3U);
 }
 
-} // namespace
-} // namespace UnrealVoxelSim::Voxel::Solid::Api
+}
+}

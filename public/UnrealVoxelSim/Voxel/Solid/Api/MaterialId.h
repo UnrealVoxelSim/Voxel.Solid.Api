@@ -33,4 +33,4 @@ namespace UnrealVoxelSim::Voxel::Solid::Api
 
 	static_assert(sizeof(MaterialId) == sizeof(std::uint32_t));
 	static_assert(std::is_trivially_copyable_v<MaterialId>);
-} // namespace UnrealVoxelSim::Voxel::Solid::Api
+}

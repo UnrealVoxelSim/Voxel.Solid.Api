@@ -10,4 +10,4 @@ namespace UnrealVoxelSim::Voxel::Solid::Api
 	{
 		std::vector<UnrealVoxelSim::Voxel::Api::Region> Regions;
 	};
-} // namespace UnrealVoxelSim::Voxel::Solid::Api
+}

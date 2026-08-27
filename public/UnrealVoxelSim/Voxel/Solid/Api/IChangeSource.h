@@ -6,4 +6,4 @@
 namespace UnrealVoxelSim::Voxel::Solid::Api
 {
 	using IChangeSource = Events::Api::ISource<Changed>;
-} // namespace UnrealVoxelSim::Voxel::Solid::Api
+}

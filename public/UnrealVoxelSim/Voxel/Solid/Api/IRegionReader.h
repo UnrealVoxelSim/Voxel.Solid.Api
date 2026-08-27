@@ -18,4 +18,4 @@ namespace UnrealVoxelSim::Voxel::Solid::Api
 			UnrealVoxelSim::Voxel::Api::Region region,
 			std::span<Cell> output) const = 0;
 	};
-} // namespace UnrealVoxelSim::Voxel::Solid::Api
+}

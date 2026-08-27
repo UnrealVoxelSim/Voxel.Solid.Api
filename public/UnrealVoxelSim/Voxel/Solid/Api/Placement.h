@@ -10,4 +10,4 @@ namespace UnrealVoxelSim::Voxel::Solid::Api
 		UnrealVoxelSim::Voxel::Api::Position Position{};
 		MaterialId Material{};
 	};
-} // namespace UnrealVoxelSim::Voxel::Solid::Api
+}

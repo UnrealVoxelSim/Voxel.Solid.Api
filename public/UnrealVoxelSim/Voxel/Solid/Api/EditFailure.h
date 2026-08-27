@@ -13,4 +13,4 @@ namespace UnrealVoxelSim::Voxel::Solid::Api
 		std::size_t InputIndex{};
 		Cell Actual{};
 	};
-} // namespace UnrealVoxelSim::Voxel::Solid::Api
+}

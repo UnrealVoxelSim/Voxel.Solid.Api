@@ -28,4 +28,4 @@ namespace UnrealVoxelSim::Voxel::Solid::Api
 		[[nodiscard]] virtual std::expected<EditResult, EditFailure> Remove(
 			std::span<const UnrealVoxelSim::Voxel::Api::Position> positions) = 0;
 	};
-} // namespace UnrealVoxelSim::Voxel::Solid::Api
+}

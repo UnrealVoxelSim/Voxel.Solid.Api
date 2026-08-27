@@ -23,4 +23,4 @@ namespace UnrealVoxelSim::Voxel::Solid::Api
 		virtual ~ICommandSink() = default;
 		[[nodiscard]] virtual std::expected<void, QueueError> Submit(std::span<const QueuedCommand> commands) = 0;
 	};
-} // namespace UnrealVoxelSim::Voxel::Solid::Api
+}

@@ -10,4 +10,4 @@ namespace UnrealVoxelSim::Voxel::Solid::Api
 		Simulation::Api::CommandStamp Stamp;
 		std::vector<Placement> Placements;
 	};
-} // namespace UnrealVoxelSim::Voxel::Solid::Api
+}

@@ -11,4 +11,4 @@ namespace UnrealVoxelSim::Voxel::Solid::Api
 		Empty,
 		StorageConflict,
 	};
-} // namespace UnrealVoxelSim::Voxel::Solid::Api
+}

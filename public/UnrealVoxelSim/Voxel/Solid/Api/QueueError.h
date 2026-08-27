@@ -11,4 +11,4 @@ namespace UnrealVoxelSim::Voxel::Solid::Api
 		QueueErrorType Error;
 		std::size_t CommandIndex{};
 	};
-} // namespace UnrealVoxelSim::Voxel::Solid::Api
+}
