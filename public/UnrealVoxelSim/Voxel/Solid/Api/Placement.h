@@ -5,11 +5,9 @@
 
 namespace UnrealVoxelSim::Voxel::Solid::Api
 {
-
-struct Placement final
-{
-    UnrealVoxelSim::Voxel::Api::Position Position{};
-    MaterialId Material{};
-};
-
+	struct Placement final
+	{
+		UnrealVoxelSim::Voxel::Api::Position Position{};
+		MaterialId Material{};
+	};
 } // namespace UnrealVoxelSim::Voxel::Solid::Api

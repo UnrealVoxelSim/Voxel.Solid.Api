@@ -7,12 +7,10 @@
 
 namespace UnrealVoxelSim::Voxel::Solid::Api
 {
-
-struct EditFailure final
-{
-    EditError Error{};
-    std::size_t InputIndex{};
-    Cell Actual{};
-};
-
+	struct EditFailure final
+	{
+		EditError Error{};
+		std::size_t InputIndex{};
+		Cell Actual{};
+	};
 } // namespace UnrealVoxelSim::Voxel::Solid::Api

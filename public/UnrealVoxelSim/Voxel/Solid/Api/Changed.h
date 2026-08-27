@@ -6,10 +6,8 @@
 
 namespace UnrealVoxelSim::Voxel::Solid::Api
 {
-
-struct Changed final
-{
-    std::vector<UnrealVoxelSim::Voxel::Api::Region> Regions;
-};
-
+	struct Changed final
+	{
+		std::vector<UnrealVoxelSim::Voxel::Api::Region> Regions;
+	};
 } // namespace UnrealVoxelSim::Voxel::Solid::Api

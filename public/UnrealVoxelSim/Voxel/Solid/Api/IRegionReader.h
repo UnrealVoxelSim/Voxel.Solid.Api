@@ -9,14 +9,13 @@
 
 namespace UnrealVoxelSim::Voxel::Solid::Api
 {
+	class IRegionReader
+	{
+	public:
+		virtual ~IRegionReader() = default;
 
-class IRegionReader
-{
-  public:
-    virtual ~IRegionReader() = default;
-
-    [[nodiscard]] virtual std::expected<void, UnrealVoxelSim::Voxel::Api::ReadError> ReadRegion(
-        UnrealVoxelSim::Voxel::Api::Region region, std::span<Cell> output) const = 0;
-};
-
+		[[nodiscard]] virtual std::expected<void, UnrealVoxelSim::Voxel::Api::ReadError> ReadRegion(
+			UnrealVoxelSim::Voxel::Api::Region region,
+			std::span<Cell> output) const = 0;
+	};
 } // namespace UnrealVoxelSim::Voxel::Solid::Api

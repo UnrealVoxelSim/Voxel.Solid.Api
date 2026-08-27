@@ -8,14 +8,12 @@
 
 namespace UnrealVoxelSim::Voxel::Solid::Api
 {
+	class IReader
+	{
+	public:
+		virtual ~IReader() = default;
 
-class IReader
-{
-  public:
-    virtual ~IReader() = default;
-
-    [[nodiscard]] virtual std::expected<Cell, UnrealVoxelSim::Voxel::Api::ReadError> Read(
-        UnrealVoxelSim::Voxel::Api::Position position) const noexcept = 0;
-};
-
+		[[nodiscard]] virtual std::expected<Cell, UnrealVoxelSim::Voxel::Api::ReadError> Read(
+			UnrealVoxelSim::Voxel::Api::Position position) const noexcept = 0;
+	};
 } // namespace UnrealVoxelSim::Voxel::Solid::Api
