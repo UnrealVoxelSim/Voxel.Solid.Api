@@ -11,24 +11,24 @@ class MaterialId final
 {
   public:
     constexpr MaterialId() noexcept = default;
-    explicit constexpr MaterialId(const std::uint32_t value) noexcept : Value_(value)
+    explicit constexpr MaterialId(const std::uint32_t value) noexcept : m_Value(value)
     {
     }
 
     [[nodiscard]] constexpr bool IsValid() const noexcept
     {
-        return Value_ != 0;
+        return m_Value != 0;
     }
 
     [[nodiscard]] constexpr std::uint32_t Value() const noexcept
     {
-        return Value_;
+        return m_Value;
     }
 
     auto operator<=>(const MaterialId &) const = default;
 
   private:
-    std::uint32_t Value_{};
+    std::uint32_t m_Value{};
 };
 
 static_assert(sizeof(MaterialId) == sizeof(std::uint32_t));
