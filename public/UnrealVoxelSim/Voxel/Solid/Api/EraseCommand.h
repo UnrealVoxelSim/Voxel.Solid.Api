@@ -7,6 +7,7 @@ namespace UnrealVoxelSim::Voxel::Solid::Api
 {
 	struct EraseCommand final
 	{
+		// TODO Do not put execution ordering onto the caller.
 		Simulation::Api::CommandStamp Stamp;
 		std::vector<UnrealVoxelSim::Voxel::Api::Position> Positions;
 	};

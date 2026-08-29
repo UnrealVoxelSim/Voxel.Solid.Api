@@ -7,6 +7,7 @@ namespace UnrealVoxelSim::Voxel::Solid::Api
 {
 	struct FillCommand final
 	{
+		// TODO Do not put execution ordering onto the caller.
 		Simulation::Api::CommandStamp Stamp;
 		std::vector<Placement> Placements;
 	};
