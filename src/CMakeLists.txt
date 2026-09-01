@@ -11,7 +11,6 @@ target_link_libraries(
     ${PROJECT_NAME}
     INTERFACE
         UnrealVoxelSim.Events.Api
-        UnrealVoxelSim.Simulation.Api
         UnrealVoxelSim.Voxel.Api
 )
 

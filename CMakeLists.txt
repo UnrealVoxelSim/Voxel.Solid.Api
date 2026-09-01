@@ -59,8 +59,4 @@ UnrealVoxelSimAddInternalDependency(
     GITHUB_REPOSITORY UnrealVoxelSim/Events.Api
 )
 
-UnrealVoxelSimAddInternalDependency(
-    GITHUB_REPOSITORY UnrealVoxelSim/Simulation.Api
-)
-
 UnrealVoxelSimConfigureModule()
