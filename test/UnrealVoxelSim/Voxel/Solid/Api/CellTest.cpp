@@ -24,6 +24,8 @@ TEST(CellTest, StandardMaterialsHaveStableDistinctIdentifiers)
     EXPECT_EQ(StandardMaterials::Dirt.Value(), 1U);
     EXPECT_EQ(StandardMaterials::Grass.Value(), 2U);
     EXPECT_EQ(StandardMaterials::Stone.Value(), 3U);
+    EXPECT_EQ(StandardMaterials::Trunk.Value(), 4U);
+    EXPECT_EQ(StandardMaterials::Plank.Value(), 5U);
 }
 
 }
