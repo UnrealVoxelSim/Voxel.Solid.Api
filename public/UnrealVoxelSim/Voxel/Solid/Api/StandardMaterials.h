@@ -9,4 +9,5 @@ namespace UnrealVoxelSim::Voxel::Solid::Api::StandardMaterials
 	inline constexpr MaterialId Stone{3};
 	inline constexpr MaterialId Trunk{4};
 	inline constexpr MaterialId Plank{5};
+	inline constexpr MaterialId Leaves{6};
 }
